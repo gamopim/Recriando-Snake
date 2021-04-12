@@ -40,7 +40,7 @@ function iniciarJogo(){
         y: snakeY
     }
 
-    snake.unshift(newHead)
+    snake.unshift(newHead);
 }
 
 let jogo = setInterval(iniciarJogo, 100);
